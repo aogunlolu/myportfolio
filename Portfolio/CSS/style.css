@@ -1,0 +1,402 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    background: linear-gradient(rgba(19, 1, 1, 0.829) 10%, rgb(5, 5, 5) 90%);
+    padding: 60px 150px;
+    color: white;
+    height: 850px;
+}
+
+.top-area{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 30px;
+    position:sticky;   
+    top: 0;
+    background-color: linear-gradient(rgba(19, 1, 1, 0.829) 10%, rgb(5, 5, 5) 90%);
+}
+.top-area .fa-bars{
+    display: none;
+}
+.top-area a{
+    text-decoration: none;
+    color: white;
+    margin-left: 70px;
+    font-size: 25px;
+    
+}
+.top-area a:hover{
+    background-color: white;
+    color: black;
+    padding: 15px 25px;
+}
+
+
+.top-main{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+.top-main .play{
+    width: 60px;
+    margin-left: 20px;
+}
+
+.top-main .profile-pics{
+    width: 600px;
+}
+.top-main1{
+    padding-top: 90px;
+   
+}
+.top-main1 h1{
+    font-size: 100px;
+    padding-bottom: 20px;
+}
+.top-main1 h3{
+    font-size: 25px;
+    padding: 20px 0;
+}
+.top-main2{
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    
+}
+.section1{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 150px;
+    color: rgba(37, 7, 7, 0.781);   
+    height: 750px;   
+    line-height: 1.5;
+}
+.section1 img{
+    border-radius: 100%;
+    width: 500px;
+    border: 4px solid rgba(53, 11, 11, 0.548);
+    
+}
+.section1-r{
+    width: 50%;
+    font-size: 18px;
+   
+}
+.section1-l{
+    width: 40%;
+   
+}
+.mobile, .map, .mail{
+    display: flex;
+    padding: 20px 0;
+    
+}
+.fa-mobile, .fa-envelope, .fa-location-dot{
+    margin-right: 20px;
+    color: rgba(146, 69, 24, 0.938);
+}
+.mail a{
+    text-decoration: none;
+    color: rgba(49, 4, 4, 0.829);
+}
+.section1-r span{
+    padding: 20px 35px;
+    background-color:rgba(146, 69, 24, 0.938);
+    line-height: 5;
+}
+.section1-r span:hover{
+    color: white;
+    border: 1px solid;
+}
+.logo{
+    display: flex;
+    background-color: rgba(19, 1, 1, 0.829);
+    padding: 40px;
+    justify-content: space-around;
+}
+.service-main{
+    text-align: center;
+    padding: 20px;
+    font-size: 27px;
+    color: rgba(19, 1, 1, 0.829);
+
+}
+.service-main h2{
+    padding: 10px;
+    font-size: 60px;
+}
+.services-box{  
+    padding: 0px 200px;
+    color: rgba(19, 1, 1, 0.829);
+  
+}
+.box-1{
+    display: flex;
+    padding: 5px;
+
+}
+.box{
+    text-align: center;
+    margin-right: 20px;
+    padding: 15px;
+    line-height: 1.5;
+}
+.services-box i{
+    font-size: 50px;
+    padding: 30px;
+}
+.box h3{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.project-link{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 150px;
+    
+}
+/* .project-link img{
+    width: 350px;
+    height: 350px;
+} */
+
+.project-box:hover{
+    box-shadow:15px 15px 10px 5px silver;
+ }
+
+.project-box a{
+    text-decoration: none;
+    color: rgb(187, 87, 104);
+}
+.project-box p{
+    font-size: 20px;
+    text-align: center;
+    line-height: 2;
+}
+
+.contact{
+    padding: 60px 150px;
+    color: white;
+    background-color: rgba(19, 1, 1, 0.829);
+    height: 700px;
+}
+.contact-main{
+    display: flex;
+    /* justify-content: space-between; */
+    font-size: 20px;
+   
+}
+.contact h1{
+    padding-bottom: 50px;
+    font-size: 45px;
+    
+}
+.contact-l{
+    border: 1px solid white;
+    padding: 30px 50px;
+    font-size: 20px;
+   
+}
+.contact-r{
+    padding: 3px 100px;
+    line-height: 3; 
+    
+   
+}
+form{
+    display: grid;
+}
+input{
+    border: none;
+    border-bottom: solid 1px white;
+    /* background-color:  rgba(19, 1, 1, 0.829); */
+    font-size: 18px;
+    color: black;
+    
+}
+textarea{
+    border: none;
+    border-bottom: solid 1px white;
+    background-color: none;
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+
+}
+button{
+    padding: 20px 35px;
+    background-color:rgba(146, 69, 24, 0.938);
+    font-size: 18px;
+    margin-top: 20px;
+    border: none;
+
+
+}
+
+footer{
+    padding: 50px 70px;
+    background-color: rgba(19, 1, 1, 0.829);
+    color: white;
+    border-top: 0.5px solid white;
+}
+
+@media screen and (max-width: 950px){
+    header{
+        padding: 30px 50px;
+
+    }
+    .top-area a{
+        display: none;
+      
+    }
+    .top-area{
+        display: flex;
+        font-size: 20px; 
+      
+    }
+    .top-area .fa-bars{
+        display: block; 
+      
+    }
+ 
+    .top-main{
+        flex-direction: column;
+        
+    }
+    .top-main .profile-pics{
+        width: 350px; 
+        padding-top: 20px;       
+        
+    }
+    .top-main1 h1{
+        font-size: 50px;
+    
+    }
+    .top-main1 h3{
+        font-size: 20px;
+     
+    }
+
+    .section1{
+        flex-direction: column;
+        padding: 30px 50px;
+        height: 1100px;
+    }
+    .section1-l img{
+        width: 300px;
+       
+    }
+    .section1-r{
+        width: 100%;
+       
+    }
+    .logo{
+        padding: 60px;
+        
+    }
+   
+    .services-box{  
+        padding: 30px 50px; 
+        
+    }
+    .box-1{
+        flex-direction: column;
+    }
+    .project-link{
+        flex-wrap: wrap;
+        padding: 50px; 
+    }
+    .project-box{
+        padding-bottom: 20px;
+    }
+    .contact{
+        padding: 50px; 
+        height: 890px;   
+
+    }
+    
+    .contact-main{
+        flex-direction: column;
+        
+    }
+    .contact-r{
+        padding: 20px;
+        
+        /* line-height: 4;  */
+       
+    }
+ 
+    .service-main h2{
+        font-size: 30px;
+    }
+    .contact h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    footer{
+        padding: 10px 20px;
+    }
+}
+
+
+@media screen and (max-width: 415px){
+    .top-main .profile-pics{
+        width: 250px;       
+        
+    }
+    .section1{
+        padding: 10px 20px;
+        padding-top: 50px;
+
+    }
+    .section1-l img{
+        width: 220px;
+
+       
+    }
+    
+    .logo{
+        flex-direction: column;
+        padding-left: 160px;   
+    }
+    .logo img{
+        width: 80px;
+    }
+  
+    .contact{
+        padding: 20px;
+
+    }
+  
+}
+
+@media screen and (max-width: 360px){
+    .top-main .profile-pics{
+        width: 250px;       
+        
+    }
+    .section1{
+        padding: 40px 20px;
+        height: 1150px;
+
+    }
+    .section1-l img{
+        width: 250px;
+       
+    }
+    .logo{
+        flex-direction: column;
+        padding-left: 120px;   
+    }
+    .logo img{
+        width: 100px;
+    }
+  
+    
+}
